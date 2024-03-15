@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'gmail' : {
+          '50': '#fdf4f3',
+          '100' : '#fce6e4',
+          '500' : '#de493d'
+        }
       },
     },
   },

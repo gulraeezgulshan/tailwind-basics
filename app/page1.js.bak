@@ -1,0 +1,13 @@
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div className='Parent'>
+      <h1 className='text-green-400 text-lg font-bold'>This is heading 1</h1>
+      <h2 className='text-red-200 text-sm'>This is heading 2</h2>
+      <p className='text-gmail-500 text-2xl'>This is sample paragraph</p>
+    </div>
+  )
+}
+
+export default Home
